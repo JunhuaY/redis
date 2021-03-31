@@ -12,3 +12,4 @@ before_script:
     - if [ "$TRAVIS_OS_NAME" == "osx" ] ; then brew update; brew tap homebrew/dupes; brew install tcl-tk;fi script:
   - make
   - make test
+  
